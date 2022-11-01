@@ -6,10 +6,8 @@ function Profile() {
     <div className='profile'>
       <img src={image} alt="myPicture" id="profile_img" />
       <p>Tolulope Amole</p>
-      <div className="details">
-        <a href="https://twitter.com/Tolulophey" id="twitter">Tolulophey</a>
-        <a href="#" id="slack">Tolulophey</a>
-      </div>
+      <p id="twitter">Twitter Username: @Tolulophey</p>
+      <p id="slack">Slack Username: Tolulophey</p>
     </div>
   )
 }

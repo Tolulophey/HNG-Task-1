@@ -3,6 +3,11 @@ import React from 'react'
 function LInks() {
 const data = [
     {
+        "id": "twitter",
+        "name": "Twitter Link",
+        "link": "https://twitter.com/hnginternship"
+    },
+    {
         "id": "btn__zuri",
         "name": "Zuri Team",
         "link": "https://training.zuri.team/"
