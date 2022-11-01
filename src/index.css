@@ -1,0 +1,115 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"); */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+  font-size: 18px;
+  line-height: 28px;
+}
+/* general */
+.profile, .links{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* profile section */
+.profile > img{
+  width: 88px;
+  height: 88px; 
+  margin-bottom: 24px;
+  margin-top: 64px;
+}
+.profile > p{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101828;
+  margin-bottom: 56px;
+}
+#slack{
+  display: none;
+}
+/* link section */
+.links > a{
+  text-align: center;
+  padding: 24px 32px;
+  width: 1152px;
+  height: 76px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-bottom: 24px;
+  color: #101828;
+}
+
+/* footer section */
+footer{
+  margin: 0 112px;
+}
+ footer > .icons{
+  width: 100%;
+  margin-top: 26px;
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: center;
+ }
+ footer > .icons > img{
+  margin: 0 18px;
+  width: 24px;
+  height: 24px;
+ }
+ footer > .bottom{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+ }
+  footer > .bottom > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+ }
+
+@media screen and (max-width: 900px), (max-width: 1100px) {
+  .links > a{
+    width: 95%;
+  }
+  footer{
+    margin: 0 30px;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  .links > a{
+    max-width: 343px;
+    height: 68px;
+  }
+  footer{
+    margin: 16px;
+  }
+   footer > .icons{
+    margin-bottom: 32px;
+   }
+  footer > .bottom{
+    flex-direction: column;
+  }
+  footer > .bottom > .zuri{
+      margin-top: 60px;
+  }
+  footer > .bottom > p{
+      margin: 16px 0;
+  }
+  
+}
